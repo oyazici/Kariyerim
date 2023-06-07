@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Kariyerim.BLL;
+using Kariyerim.Core;
 
 namespace Kariyerim.Api.Controllers
 {
@@ -12,8 +13,10 @@ namespace Kariyerim.Api.Controllers
         [HttpGet]
         public List<IsIlaniMessage> GetIsIlani()
         {
+            ContextHelper.SetUser(34);
             var bll = Ioc.Instance<IIsIlaniBll>();
             //IsIlaniBll bll = new IsIlaniBll();
+            //IsIlaniBll2 bll = new IsIlaniBll2();
             return bll.GetIsIlani();
         }
 

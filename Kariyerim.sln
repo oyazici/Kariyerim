@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kariyerim.Api", "Kariyerim.Api\Kariyerim.Api.csproj", "{2B26EB2C-FED6-4BCC-9691-E7BF73F330B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kariyerim.Api", "Kariyerim.Api\Kariyerim.Api.csproj", "{2B26EB2C-FED6-4BCC-9691-E7BF73F330B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kariyerim.DAL", "Kariyerim.DAL\Kariyerim.DAL.csproj", "{2F13561B-14A5-44BC-AD80-5C77DA7F5938}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kariyerim.DAL", "Kariyerim.DAL\Kariyerim.DAL.csproj", "{2F13561B-14A5-44BC-AD80-5C77DA7F5938}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kariyerim.BLL", "Kariyerim.BLL\Kariyerim.BLL.csproj", "{479D46E6-87F1-4197-9688-51473ABC00D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kariyerim.BLL", "Kariyerim.BLL\Kariyerim.BLL.csproj", "{479D46E6-87F1-4197-9688-51473ABC00D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kariyerim.Entity", "Kariyerim.Entity\Kariyerim.Entity.csproj", "{338D6D60-0FC8-498D-9DB9-3AA5BA0D8034}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kariyerim.Entity", "Kariyerim.Entity\Kariyerim.Entity.csproj", "{338D6D60-0FC8-498D-9DB9-3AA5BA0D8034}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kariyerim.DTO", "Kariyerim.DTO\Kariyerim.DTO.csproj", "{97353DED-65F2-4BA9-B73A-77A1559515B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kariyerim.DTO", "Kariyerim.DTO\Kariyerim.DTO.csproj", "{97353DED-65F2-4BA9-B73A-77A1559515B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kariyerim.Core", "Kariyerim.Core\Kariyerim.Core.csproj", "{6A3C759A-7BD3-4BC7-A3F8-A46B68F01712}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{97353DED-65F2-4BA9-B73A-77A1559515B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97353DED-65F2-4BA9-B73A-77A1559515B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97353DED-65F2-4BA9-B73A-77A1559515B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A3C759A-7BD3-4BC7-A3F8-A46B68F01712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A3C759A-7BD3-4BC7-A3F8-A46B68F01712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A3C759A-7BD3-4BC7-A3F8-A46B68F01712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A3C759A-7BD3-4BC7-A3F8-A46B68F01712}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

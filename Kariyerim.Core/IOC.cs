@@ -1,4 +1,4 @@
-﻿namespace Kariyerim.Api
+﻿namespace Kariyerim.Core
 {
     public class Ioc
     {

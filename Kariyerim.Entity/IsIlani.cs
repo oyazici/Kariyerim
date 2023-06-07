@@ -16,5 +16,6 @@ namespace Kariyerim.Entity
         public DateTime? IlanBitisTarihi { get; set; }
         public int IlaniOlusturan { get; set; }
         public bool AktifMi { get; set; }
+
     }
 }

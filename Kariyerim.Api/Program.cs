@@ -1,7 +1,9 @@
-using Kariyerim.Api;
+using Kariyerim.Core;
 using Kariyerim.BLL;
 
 var builder = WebApplication.CreateBuilder(args);
+Ioc.Register<IIsIlaniBll, IsIlaniBll>();
+IocDal.RegisterDal();
 
 // Add services to the container.
 
@@ -25,4 +27,4 @@ app.MapControllers();
 
 app.Run();
 
-Ioc.Register<IIsIlaniBll, IsIlaniBll>();
+

@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Kariyerim.Core\Kariyerim.Core.csproj" />
     <ProjectReference Include="..\Kariyerim.Entity\Kariyerim.Entity.csproj" />
   </ItemGroup>
 
